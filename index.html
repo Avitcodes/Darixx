@@ -1,0 +1,924 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>DARIX TILES</title>
+	<link rel="stylesheet" href="styles.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+	<!-- Top Bar -->
+	<div class="top-bar">
+		<div class="container">
+			<div class="contact-info">
+				<span><i class="fas fa-phone"></i> +1 (555) 123-4567</span>
+				<span><i class="fas fa-envelope"></i> info@tilegallery.com</span>
+			</div>
+			<div class="social-links">
+				<a href="#"><i class="fab fa-facebook"></i></a>
+				<a href="#"><i class="fab fa-instagram"></i></a>
+				<a href="#"><i class="fab fa-pinterest"></i></a>
+				<a href="#"><i class="fab fa-twitter"></i></a>
+			</div>
+		</div>
+	</div>
+
+	<!-- Header -->
+	<header class="main-header">
+		<div class="container">
+			<div class="logo">
+				<h1>Darix<span>Tiles</span></h1>
+			</div>
+			<nav class="main-nav">
+				<ul>
+					<li><a href="#dashboard">Home</a></li>
+					<li><a href="#inspiration">Inspiration</a></li>
+					<li><a href="#about">About</a></li>
+					<li><a href="#contact">Contact</a></li>
+				</ul>
+			</nav>
+			<div class="header-actions">
+				<a href="#search" class="search-btn"><i class="fas fa-search"></i></a>
+				<a href="#purchased" class="cart-btn"><i class="fas fa-shopping-cart"></i><span class="cart-count">0</span></a>
+				<button class="mobile-menu-btn"><i class="fas fa-bars"></i></button>
+			</div>
+		</div>
+	</header>
+
+	<div class="container main-container">
+		<!-- Sidebar -->
+		<nav class="sidebar">
+			<div class="sidebar-header">
+				<h2>Collections</h2>
+			</div>
+			<ul class="nav-links">
+				<li class="active"><a href="#dashboard"><i class="fas fa-home"></i> Dashboard</a></li>
+				<li><a href="#ceramic"><i class="fas fa-th"></i> Ceramic Tiles</a></li>
+				<li><a href="#porcelain"><i class="fas fa-th"></i> Porcelain Tiles</a></li>
+				<li><a href="#mosaic"><i class="fas fa-th"></i> Mosaic Tiles</a></li>
+				<li><a href="#natural-stone"><i class="fas fa-th"></i> Natural Stone</a></li>
+				<li><a href="#glass"><i class="fas fa-th"></i> Glass Tiles</a></li>
+				<li><a href="#purchased"><i class="fas fa-shopping-cart"></i> Purchased</a></li>
+			</ul>
+			<div class="sidebar-footer">
+				<div class="user-info">
+					<img src="https://via.placeholder.com/40" alt="User">
+					<div class="user-details">
+						<h4>John Doe</h4>
+						<p>Premium Member</p>
+					</div>
+				</div>
+			</div>
+		</nav>
+
+		<!-- Main Content -->
+		<main class="main-content">
+			<!-- Dashboard Section -->
+			<section id="dashboard" class="section active">
+				<div class="section-header">
+					<h1>Welcome to Tile Gallery</h1>
+					<div class="breadcrumb">
+						<a href="#dashboard">Home</a> / <span>Dashboard</span>
+					</div>
+				</div>
+
+				<div class="dashboard-stats">
+					<div class="stat-card">
+						<div class="stat-icon">
+							<i class="fas fa-th"></i>
+						</div>
+						<div class="stat-info">
+							<h3>Total Collections</h3>
+							<p>5</p>
+							<span class="trend up"><i class="fas fa-arrow-up"></i> 12%</span>
+						</div>
+					</div>
+					<div class="stat-card">
+						<div class="stat-icon">
+							<i class="fas fa-shopping-cart"></i>
+						</div>
+						<div class="stat-info">
+							<h3>Purchased Items</h3>
+							<p>12</p>
+							<span class="trend up"><i class="fas fa-arrow-up"></i> 8%</span>
+						</div>
+					</div>
+					<div class="stat-card">
+						<div class="stat-icon">
+							<i class="fas fa-star"></i>
+						</div>
+						<div class="stat-info">
+							<h3>Featured Items</h3>
+							<p>8</p>
+							<span class="trend up"><i class="fas fa-arrow-up"></i> 15%</span>
+						</div>
+					</div>
+				</div>
+
+				<!-- Featured Collections -->
+				<div class="featured-collections">
+					<h2>Featured Collections</h2>
+					<div class="collection-grid">
+						<div class="collection-card">
+							<img src="img-7853.jpeg" alt="Luxury Collection">
+							<div class="collection-info">
+								<h3>Luxury Collection</h3>
+								<p>Premium tiles for sophisticated spaces</p>
+								<a href="#luxury" class="btn-explore">Explore Collection</a>
+							</div>
+						</div>
+						<div class="collection-card">
+							<img src="modern-minimalist-interior-marble-flooring-260nw-726304624.webp" alt="Modern Minimal">
+							<div class="collection-info">
+								<h3>Modern Minimal</h3>
+								<p>Clean lines and contemporary designs</p>
+								<a href="#modern" class="btn-explore">Explore Collection</a>
+							</div>
+						</div>
+						<div class="collection-card">
+							<img src="product-jpeg-500x500.webp" alt="Classic Elegance">
+							<div class="collection-info">
+								<h3>Classic Elegance</h3>
+								<p>Timeless designs for traditional spaces</p>
+								<a href="#classic" class="btn-explore">Explore Collection</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- Latest Projects -->
+				<div class="latest-projects">
+					<h2>Latest Projects</h2>
+					<div class="project-showcase">
+						<div class="project-card">
+							<div class="project-image">
+								<img src="marble_bathroom_0b7c89e5d7.webp" alt="Modern Bathroom">
+								<div class="project-overlay">
+									<span class="project-category">Bathroom</span>
+								</div>
+							</div>
+							<div class="project-details">
+								<h3>Modern Bathroom Design</h3>
+								<p>Contemporary bathroom renovation using our premium porcelain tiles</p>
+								<div class="project-meta">
+									<span><i class="fas fa-map-marker-alt"></i> New York</span>
+									<span><i class="fas fa-calendar"></i> 2024</span>
+								</div>
+							</div>
+						</div>
+						<div class="project-card">
+							<div class="project-image">
+								<img src="top-kitchen-design-ideas-that-inspire-you-16.webp" alt="Luxury Kitchen">
+								<div class="project-overlay">
+									<span class="project-category">Kitchen</span>
+								</div>
+							</div>
+							<div class="project-details">
+								<h3>Luxury Kitchen Makeover</h3>
+								<p>High-end kitchen renovation featuring our marble-look tiles</p>
+								<div class="project-meta">
+									<span><i class="fas fa-map-marker-alt"></i> Los Angeles</span>
+									<span><i class="fas fa-calendar"></i> 2024</span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- Customer Testimonials -->
+				<div class="testimonials">
+					<h2>What Our Customers Say</h2>
+					<div class="testimonial-grid">
+						<div class="testimonial-card">
+							<div class="testimonial-content">
+								<i class="fas fa-quote-left"></i>
+								<p>"The quality of tiles is exceptional. The installation process was smooth and professional."</p>
+							</div>
+							<div class="testimonial-author">
+								<img src="2ea37e4dac3c16721c6a9b4170ccd70d.jpg" alt="Sarah Johnson">
+								<div class="author-info">
+									<h4>Sarah Johnson</h4>
+									<p>Homeowner</p>
+								</div>
+							</div>
+						</div>
+						<div class="testimonial-card">
+							<div class="testimonial-content">
+								<i class="fas fa-quote-left"></i>
+								<p>"Amazing selection of tiles. The customer service was outstanding throughout the process."</p>
+							</div>
+							<div class="testimonial-author">
+								<img src="bdcba7fa6b1348afa71473ad235df9b7.jpg" alt="Michael Chen">
+								<div class="author-info">
+									<h4>Michael Chen</h4>
+									<p>Interior Designer</p>
+								</div>
+							</div>
+						</div>
+						<div class="testimonial-card">
+							<div class="testimonial-content">
+								<i class="fas fa-quote-left"></i>
+								<p>"The premium collection exceeded our expectations. Perfect for our luxury home project."</p>
+							</div>
+							<div class="testimonial-author">
+								<img src="images (24).jpeg" alt="Emma Davis">
+								<div class="author-info">
+									<h4>Emma Davis</h4>
+									<p>Architect</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- Design Tips -->
+				<div class="design-tips">
+					<h2>Design Tips & Inspiration</h2>
+					<div class="tips-grid">
+						<article class="tip-card">
+							<div class="tip-image">
+								<img src="ab89cba6169e0e1994aaf0392f29c013.jpg" alt="Color Combinations">
+							</div>
+							<div class="tip-content">
+								<h3>Perfect Color Combinations</h3>
+								<p>Learn how to create stunning tile combinations for your space</p>
+								<a href="#read-more" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+							</div>
+						</article>
+						<article class="tip-card">
+							<div class="tip-image">
+								<img src="c38ea48a74a34f2b2711662894c7df79.jpg" alt="Layout Ideas">
+							</div>
+							<div class="tip-content">
+								<h3>Creative Layout Ideas</h3>
+								<p>Discover innovative ways to arrange tiles in your home</p>
+								<a href="#read-more" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+							</div>
+						</article>
+						<article class="tip-card">
+							<div class="tip-image">
+								<img src="GFTC-EasyClean-PVC-Floorcare-Kit-Thumbnail_1200x1200.webp" alt="Maintenance">
+							</div>
+							<div class="tip-content">
+								<h3>Tile Maintenance Guide</h3>
+								<p>Essential tips for keeping your tiles looking new</p>
+								<a href="#read-more" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+							</div>
+						</article>
+					</div>
+				</div>
+			</section>
+
+			<!-- Ceramic Tiles Section -->
+			<section id="ceramic" class="section">
+				<div class="section-header">
+					<h2>Ceramic Tiles Collection</h2>
+					<div class="section-actions">
+						<div class="filter-dropdown">
+							<button class="filter-btn"><i class="fas fa-filter"></i> Filter</button>
+							<div class="filter-content">
+								<div class="filter-group">
+									<h4>Size</h4>
+									<label><input type="checkbox"> 12x12</label>
+									<label><input type="checkbox"> 16x16</label>
+									<label><input type="checkbox"> 24x24</label>
+								</div>
+								<div class="filter-group">
+									<h4>Price Range</h4>
+									<input type="range" min="0" max="100" value="50">
+								</div>
+							</div>
+						</div>
+						<div class="view-options">
+							<button class="grid-view active"><i class="fas fa-th"></i></button>
+							<button class="list-view"><i class="fas fa-list"></i></button>
+						</div>
+					</div>
+				</div>
+
+				<div class="gallery">
+					<div class="tile-card">
+						<div class="tile-image">
+							<img src="990bcd7b0cb43baa294575ead0e3749f.jpg"="Classic White">
+							<div class="tile-overlay">
+								<button class="quick-view"><i class="fas fa-eye"></i></button>
+								<button class="add-to-cart"><i class="fas fa-shopping-cart"></i></button>
+							</div>
+						</div>
+						<div class="tile-info">
+							<h3>Classic White</h3>
+							<p class="tile-size">Size: 12x12</p>
+							<div class="tile-rating">
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star-half-alt"></i>
+								<span>(4.5)</span>
+							</div>
+							<p class="price">$25.99/sq ft</p>
+						</div>
+					</div>
+					<div class="tile-card">
+						<div class="tile-image">
+							<img src="115735758_1168934803465291_6078482595491365763_n.jpg" alt="Modern Gray">
+							<div class="tile-overlay">
+								<button class="quick-view"><i class="fas fa-eye"></i></button>
+								<button class="add-to-cart"><i class="fas fa-shopping-cart"></i></button>
+							</div>
+						</div>
+						<div class="tile-info">
+							<h3>Modern Gray</h3>
+							<p class="tile-size">Size: 12x12</p>
+							<div class="tile-rating">
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star-half-alt"></i>
+								<span>(4.5)</span>
+							</div>
+							<p class="price">$29.99/sq ft</p>
+						</div>
+					</div>
+					<div class="tile-card">
+						<div class="tile-image">
+							<img src="modern-minimalist-interior-marble-flooring-260nw-726304624.webp" alt="Elegant Beige">
+							<div class="tile-overlay">
+								<button class="quick-view"><i class="fas fa-eye"></i></button>
+								<button class="add-to-cart"><i class="fas fa-shopping-cart"></i></button>
+							</div>
+						</div>
+						<div class="tile-info">
+							<h3>Elegant Beige</h3>
+							<p class="tile-size">Size: 12x12</p>
+							<div class="tile-rating">
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star-half-alt"></i>
+								<span>(4.5)</span>
+							</div>
+							<p class="price">$27.99/sq ft</p>
+						</div>
+					</div>
+					<div class="tile-card">
+						<div class="tile-image">
+							<img src="36849bc0a4bf25c44a1e71ee708bc97d.jpg" alt="Pattern Blue">
+							<div class="tile-overlay">
+								<button class="quick-view"><i class="fas fa-eye"></i></button>
+								<button class="add-to-cart"><i class="fas fa-shopping-cart"></i></button>
+							</div>
+						</div>
+						<div class="tile-info">
+							<h3>Pattern Blue</h3>
+							<p class="tile-size">Size: 12x12</p>
+							<div class="tile-rating">
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star-half-alt"></i>
+								<span>(4.5)</span>
+							</div>
+							<p class="price">$32.99/sq ft</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="pricing-table">
+					<h3>Pricing Details</h3>
+					<div class="table-responsive">
+						<table>
+							<thead>
+								<tr>
+									<th> Tile Name</th>
+									<th>Size</th>
+									<th>Price per sq ft</th>
+									<th>Box Coverage</th>
+									<th>Box Price</th>
+									<th>Action</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td> <input type="checkbox"> Classic White</td>
+									<td>12x12</td>
+									<td>$25.99</td>
+									<td>20 sq ft</td>
+									<td>$519.80</td>
+									<td><button class="add-to-cart"><i class="fas fa-shopping-cart"></i></button></td>
+								</tr>
+								<tr>
+									<td><input type="checkbox"> Modern Gray</td>
+									<td>12x12</td>
+									<td>$29.99</td>
+									<td>20 sq ft</td>
+									<td>$599.80</td>
+									<td><button class="add-to-cart"><i class="fas fa-shopping-cart"></i></button></td>
+								</tr>
+								<tr>
+									<td><input type="checkbox"> Elegant Beige</td>
+									<td>12x12</td>
+									<td>$27.99</td>
+									<td>20 sq ft</td>
+									<td>$559.80</td>
+									<td><button class="add-to-cart"><i class="fas fa-shopping-cart"></i></button></td>
+								</tr>
+								<tr>
+									<td><input type="checkbox"> Pattern Blue</td>
+									<td>12x12</td>
+									<td>$32.99</td>
+									<td>20 sq ft</td>
+									<td>$659.80</td>
+									<td><button class="add-to-cart"><i class="fas fa-shopping-cart"></i></button></td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+				</div>
+			</section>
+
+			<!-- Porcelain Tiles Section -->
+			<section id="porcelain" class="section">
+				<div class="section-header">
+					<h2>Porcelain Tiles Collection</h2>
+					<div class="section-actions">
+						<div class="filter-dropdown">
+							<button class="filter-btn"><i class="fas fa-filter"></i> Filter</button>
+							<div class="filter-content">
+								<div class="filter-group">
+									<h4>Size</h4>
+									<label><input type="checkbox"> 24x24</label>
+									<label><input type="checkbox"> 36x36</label>
+									<label><input type="checkbox"> 48x48</label>
+								</div>
+								<div class="filter-group">
+									<h4>Finish</h4>
+									<label><input type="checkbox"> Polished</label>
+									<label><input type="checkbox"> Matte</label>
+									<label><input type="checkbox"> Textured</label>
+								</div>
+								<div class="filter-group">
+									<h4>Price Range</h4>
+									<input type="range" min="0" max="200" value="100">
+								</div>
+							</div>
+						</div>
+						<div class="view-options">
+							<button class="grid-view active"><i class="fas fa-th"></i></button>
+							<button class="list-view"><i class="fas fa-list"></i></button>
+						</div>
+					</div>
+				</div>
+
+				<div class="gallery">
+					<div class="tile-card">
+						<div class="tile-image">
+							<img src="download (7).jpeg" alt="Marble Look">
+							<div class="tile-overlay">
+								<button class="quick-view"><i class="fas fa-eye"></i></button>
+								<button class="add-to-cart"><i class="fas fa-shopping-cart"></i></button>
+							</div>
+						</div>
+						<div class="tile-info">
+							<h3>Marble Look</h3>
+							<p class="tile-size">Size: 24x24</p>
+							<div class="tile-rating">
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<span>(5.0)</span>
+							</div>
+							<p class="price">$45.99/sq ft</p>
+						</div>
+					</div>
+					<div class="tile-card">
+						<div class="tile-image">
+							<img src="3db98171002e575245a15d5c2e6e16d9.jpg" alt="Wood Plank">
+							<div class="tile-overlay">
+								<button class="quick-view"><i class="fas fa-eye"></i></button>
+								<button class="add-to-cart"><i class="fas fa-shopping-cart"></i></button>
+							</div>
+						</div>
+						<div class="tile-info">
+							<h3>Wood Plank</h3>
+							<p class="tile-size">Size: 36x6</p>
+							<div class="tile-rating">
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star-half-alt"></i>
+								<span>(4.5)</span>
+							</div>
+							<p class="price">$39.99/sq ft</p>
+						</div>
+					</div>
+					<div class="tile-card">
+						<div class="tile-image">
+							<img src="0608.webp" alt="Concrete Look">
+							<div class="tile-overlay">
+								<button class="quick-view"><i class="fas fa-eye"></i></button>
+								<button class="add-to-cart"><i class="fas fa-shopping-cart"></i></button>
+							</div>
+						</div>
+						<div class="tile-info">
+							<h3>Concrete Look</h3>
+							<p class="tile-size">Size: 48x48</p>
+							<div class="tile-rating">
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<span>(5.0)</span>
+							</div>
+							<p class="price">$52.99/sq ft</p>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!-- Mosaic Tiles Section -->
+			<section id="mosaic" class="section">
+				<div class="section-header">
+					<h2>Mosaic Tiles Collection</h2>
+					<div class="section-actions">
+						<div class="filter-dropdown">
+							<button class="filter-btn"><i class="fas fa-filter"></i> Filter</button>
+							<div class="filter-content">
+								<div class="filter-group">
+									<h4>Pattern</h4>
+									<label><input type="checkbox"> Geometric</label>
+									<label><input type="checkbox"> Floral</label>
+									<label><input type="checkbox"> Abstract</label>
+								</div>
+								<div class="filter-group">
+									<h4>Material</h4>
+									<label><input type="checkbox"> Glass</label>
+									<label><input type="checkbox"> Stone</label>
+									<label><input type="checkbox"> Metal</label>
+								</div>
+								<div class="filter-group">
+									<h4>Price Range</h4>
+									<input type="range" min="0" max="150" value="75">
+								</div>
+							</div>
+						</div>
+						<div class="view-options">
+							<button class="grid-view active"><i class="fas fa-th"></i></button>
+							<button class="list-view"><i class="fas fa-list"></i></button>
+						</div>
+					</div>
+				</div>
+
+				<div class="gallery">
+					<div class="tile-card">
+						<div class="tile-image">
+							<img src="pri-bri_n1.jpg" alt="Geometric Pattern">
+							<div class="tile-overlay">
+								<button class="quick-view"><i class="fas fa-eye"></i></button>
+								<button class="add-to-cart"><i class="fas fa-shopping-cart"></i></button>
+							</div>
+						</div>
+						<div class="tile-info">
+							<h3>Geometric Pattern</h3>
+							<p class="tile-size">Sheet: 12x12</p>
+							<div class="tile-rating">
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<span>(5.0)</span>
+							</div>
+							<p class="price">$35.99/sq ft</p>
+						</div>
+					</div>
+					<div class="tile-card">
+						<div class="tile-image">
+							<img src="21_3.jpg" alt="Floral Design">
+							<div class="tile-overlay">
+								<button class="quick-view"><i class="fas fa-eye"></i></button>
+								<button class="add-to-cart"><i class="fas fa-shopping-cart"></i></button>
+							</div>
+						</div>
+						<div class="tile-info">
+							<h3>Floral Design</h3>
+							<p class="tile-size">Sheet: 12x12</p>
+							<div class="tile-rating">
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star-half-alt"></i>
+								<span>(4.5)</span>
+							</div>
+							<p class="price">$42.99/sq ft</p>
+						</div>
+					</div>
+					<div class="tile-card">
+						<div class="tile-image">
+							<img src="il_570xN.3741422680_cjgu.webp" alt="Abstract Art">
+							<div class="tile-overlay">
+								<button class="quick-view"><i class="fas fa-eye"></i></button>
+								<button class="add-to-cart"><i class="fas fa-shopping-cart"></i></button>
+							</div>
+						</div>
+						<div class="tile-info">
+							<h3>Abstract Art</h3>
+							<p class="tile-size">Sheet: 12x12</p>
+							<div class="tile-rating">
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<span>(5.0)</span>
+							</div>
+							<p class="price">$38.99/sq ft</p>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!-- Natural Stone Section -->
+			<section id="natural-stone" class="section">
+				<div class="section-header">
+					<h2>Natural Stone Collection</h2>
+					<div class="section-actions">
+						<div class="filter-dropdown">
+							<button class="filter-btn"><i class="fas fa-filter"></i> Filter</button>
+							<div class="filter-content">
+								<div class="filter-group">
+									<h4>Type</h4>
+									<label><input type="checkbox"> Marble</label>
+									<label><input type="checkbox"> Granite</label>
+									<label><input type="checkbox"> Travertine</label>
+								</div>
+								<div class="filter-group">
+									<h4>Finish</h4>
+									<label><input type="checkbox"> Polished</label>
+									<label><input type="checkbox"> Honed</label>
+									<label><input type="checkbox"> Tumbled</label>
+								</div>
+								<div class="filter-group">
+									<h4>Price Range</h4>
+									<input type="range" min="0" max="300" value="150">
+								</div>
+							</div>
+						</div>
+						<div class="view-options">
+							<button class="grid-view active"><i class="fas fa-th"></i></button>
+							<button class="list-view"><i class="fas fa-list"></i></button>
+						</div>
+					</div>
+				</div>
+
+				<div class="gallery">
+					<div class="tile-card">
+						<div class="tile-image">
+							<img src="Carrara-Bianco-Marble-corner-2.jpg" alt="Carrara Marble">
+							<div class="tile-overlay">
+								<button class="quick-view"><i class="fas fa-eye"></i></button>
+								<button class="add-to-cart"><i class="fas fa-shopping-cart"></i></button>
+							</div>
+						</div>
+						<div class="tile-info">
+							<h3>Carrara Marble</h3>
+							<p class="tile-size">Size: 12x12</p>
+							<div class="tile-rating">
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<span>(5.0)</span>
+							</div>
+							<p class="price">$89.99/sq ft</p>
+						</div>
+					</div>
+					<div class="tile-card">
+						<div class="tile-image">
+							<img src="absolute-black-granite-tile202004271816059773898.webp" alt="Black Granite">
+							<div class="tile-overlay">
+								<button class="quick-view"><i class="fas fa-eye"></i></button>
+								<button class="add-to-cart"><i class="fas fa-shopping-cart"></i></button>
+							</div>
+						</div>
+						<div class="tile-info">
+							<h3>Black Granite</h3>
+							<p class="tile-size">Size: 12x12</p>
+							<div class="tile-rating">
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star-half-alt"></i>
+								<span>(4.5)</span>
+							</div>
+							<p class="price">$75.99/sq ft</p>
+						</div>
+					</div>
+					<div class="tile-card">
+						<div class="tile-image">
+							<img src="palma-antique-travertine-stone-wall-and-floor-brick-tile-p9129-57393_zoom.jpg" alt="Travertine">
+							<div class="tile-overlay">
+								<button class="quick-view"><i class="fas fa-eye"></i></button>
+								<button class="add-to-cart"><i class="fas fa-shopping-cart"></i></button>
+							</div>
+						</div>
+						<div class="tile-info">
+							<h3>Travertine</h3>
+							<p class="tile-size">Size: 12x12</p>
+							<div class="tile-rating">
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<span>(5.0)</span>
+							</div>
+							<p class="price">$65.99/sq ft</p>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!-- Glass Tiles Section -->
+			<section id="glass" class="section">
+				<div class="section-header">
+					<h2>Glass Tiles Collection</h2>
+					<div class="section-actions">
+						<div class="filter-dropdown">
+							<button class="filter-btn"><i class="fas fa-filter"></i> Filter</button>
+							<div class="filter-content">
+								<div class="filter-group">
+									<h4>Style</h4>
+									<label><input type="checkbox"> Subway</label>
+									<label><input type="checkbox"> Penny Round</label>
+									<label><input type="checkbox"> Hexagon</label>
+								</div>
+								<div class="filter-group">
+									<h4>Finish</h4>
+									<label><input type="checkbox"> Glossy</label>
+									<label><input type="checkbox"> Matte</label>
+									<label><input type="checkbox"> Iridescent</label>
+								</div>
+								<div class="filter-group">
+									<h4>Price Range</h4>
+									<input type="range" min="0" max="100" value="50">
+								</div>
+							</div>
+						</div>
+						<div class="view-options">
+							<button class="grid-view active"><i class="fas fa-th"></i></button>
+							<button class="list-view"><i class="fas fa-list"></i></button>
+						</div>
+					</div>
+				</div>
+
+				<div class="gallery">
+					<div class="tile-card">
+						<div class="tile-image">
+							<img src="shower-dark-grey-subway-tiles-walk-built-shelf-glass-door-chrome-showerhead-273715684.webp" alt="Subway Glass">
+							<div class="tile-overlay">
+								<button class="quick-view"><i class="fas fa-eye"></i></button>
+								<button class="add-to-cart"><i class="fas fa-shopping-cart"></i></button>
+							</div>
+						</div>
+						<div class="tile-info">
+							<h3>Subway Glass</h3>
+							<p class="tile-size">Size: 3x6</p>
+							<div class="tile-rating">
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<span>(5.0)</span>
+							</div>
+							<p class="price">$28.99/sq ft</p>
+						</div>
+					</div>
+					<div class="tile-card">
+						<div class="tile-image">
+							<img src="SF200085_Black-Matte-.75-Inch-Penny-Round-Porcelain-Mosaic-Porcelart-2.jpg" alt="Penny Round">
+							<div class="tile-overlay">
+								<button class="quick-view"><i class="fas fa-eye"></i></button>
+								<button class="add-to-cart"><i class="fas fa-shopping-cart"></i></button>
+							</div>
+						</div>
+						<div class="tile-info">
+							<h3>Penny Round</h3>
+							<p class="tile-size">Sheet: 12x12</p>
+							<div class="tile-rating">
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star-half-alt"></i>
+								<span>(4.5)</span>
+							</div>
+							<p class="price">$32.99/sq ft</p>
+						</div>
+					</div>
+					<div class="tile-card">
+						<div class="tile-image">
+							<img src="black_matt_hexagon_tiles.webp" alt="Hexagon">
+							<div class="tile-overlay">
+								<button class="quick-view"><i class="fas fa-eye"></i></button>
+								<button class="add-to-cart"><i class="fas fa-shopping-cart"></i></button>
+							</div>
+						</div>
+						<div class="tile-info">
+							<h3>Hexagon</h3>
+							<p class="tile-size">Sheet: 12x12</p>
+							<div class="tile-rating">
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<span>(5.0)</span>
+							</div>
+							<p class="price">$35.99/sq ft</p>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+	</div>
+
+	<!-- Footer -->
+	<footer class="main-footer">
+		<div class="footer-content">
+			<div class="footer-section">
+				<h3>About Tile Gallery</h3>
+				<p>Premium tile solutions for modern living spaces. We offer the finest selection of tiles for your home and commercial projects.</p>
+				<div class="social-links">
+					<a href="#"><i class="fab fa-facebook"></i></a>
+					<a href="#"><i class="fab fa-instagram"></i></a>
+					<a href="#"><i class="fab fa-pinterest"></i></a>
+					<a href="#"><i class="fab fa-twitter"></i></a>
+				</div>
+			</div>
+			<div class="footer-section">
+				<h3>Quick Links</h3>
+				<ul>
+					<li><a href="#about">About Us</a></li>
+					<li><a href="#collections">Collections</a></li>
+					<li><a href="#inspiration">Inspiration</a></li>
+					<li><a href="#contact">Contact</a></li>
+				</ul>
+			</div>
+			<div class="footer-section">
+				<h3>Contact Info</h3>
+				<ul class="contact-info">
+					<li><i class="fas fa-map-marker-alt"></i> 123 Tile Street, Design District</li>
+					<li><i class="fas fa-phone"></i> +1 (555) 123-4567</li>
+					<li><i class="fas fa-envelope"></i> info@tilegallery.com</li>
+				</ul>
+			</div>
+			<div class="footer-section">
+				<h3>Newsletter</h3>
+				<p>Subscribe to our newsletter for updates and exclusive offers.</p>
+				<form class="newsletter-form">
+					<input type="email" placeholder="Enter your email">
+					<button type="submit">Subscribe</button>
+				</form>
+			</div>
+		</div>
+		<div class="footer-bottom">
+			<p>&copy; 2024 Tile Gallery. All rights reserved.</p>
+			<div class="footer-links">
+				<a href="#privacy">Privacy Policy</a>
+				<a href="#terms">Terms of Service</a>
+				<a href="#sitemap">Sitemap</a>
+			</div>
+		</div>
+	</footer>
+
+	<!-- Search Overlay -->
+	<div class="search-overlay">
+		<div class="search-content">
+			<form class="search-form">
+				<input type="text" placeholder="Search for tiles...">
+				<button type="submit"><i class="fas fa-search"></i></button>
+			</form>
+			<button class="close-search"><i class="fas fa-times"></i></button>
+		</div>
+	</div>
+
+	<script src="script.js"></script>
+</body>
+
+</html>
